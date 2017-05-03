@@ -28,12 +28,16 @@ request:   {     "shopNumber": "1",     "shopName": "53453",   �
 Please change the shopAddresses mentioned in above request to save the addresses with different lattitude and longitude.   Please keep changing the shopNumber in every adding request. Because its a primary key in h2 database. Otherwise previous address will get overridden by new one.
 
 
-## Getting all the saved addresses:   Once you are done with adding the addresses in to the database. You can see all saved addresses with their latttude and longitude by hitting below url:  
+## Getting all the saved addresses:   
+
+Once you are done with adding the addresses in to the database. You can see all saved addresses with their latttude and longitude by hitting below url:  
 
 Get : http://localhost:1111/shop/store  
 
 
-## get the closest location address by their lattitude and longitude: Now you can get the closest location  by sending lattitude and longitude in query param.   Please hit below url with query param:  
+## Get the closest location address by their lattitude and longitude: 
+
+Now you can get the closest location  by sending lattitude and longitude in query param.   Please hit below url with query param:  
 
 Get : http://localhost:1111/shop/store?lat=24.9191775&lng=89.82895359999999
 
