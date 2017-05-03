@@ -1,5 +1,7 @@
 # Shop API
 
+An Api to store the shop addresss with their lattitude and longitude in a temporary h2 in memory database and user can get the closest location by sending the lattitude and longitude from stored addresses.
+
 ##Technologies used: 
 Java, Spring boot, Rest , Jpa repository, h2 in memory database, google api, Lombok plugin, mockito for junit, maven, jdk8, json. 
 
