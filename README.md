@@ -17,10 +17,11 @@ I have exposed below three restful webServices:
 2) Get all addresses to see the saved addresss
 3) Get the closest location address by their lattitude and longitude
 
-## adding the shop address:
+## Adding the shop address:
 Please start adding addresses in to the in memory database using below Rest url and json Request. (Use postman or rest client to hit)    
 
-post : http://localhost:1111/shop/store      
+post : http://localhost:1111/shop/store  
+
 request:   {     "shopNumber": "1",     "shopName": "53453",     "shopAddresses":"Cusrow Baug Colony, Apollo Bandar, Colaba, Mumbai",     "postCode": "Maharashtra 400001"   } 
 
 
